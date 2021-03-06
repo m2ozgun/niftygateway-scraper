@@ -17,9 +17,9 @@ avg_resale_price,
 highest_active_bid,
 lowest_active_ask,
 sm_market_volume,
-sm_lowest_price,
+sm_lowest_price
 
-Instructions
+### Instructions for installation
 - Create a virtual environment -> virtualenv venv
 - Activate the virtual environment -> source venv/bin/activate on Mac/Linux, venv\Scripts\activate on Windows
 - Install required libraries -> pip install -r requirements.txt
