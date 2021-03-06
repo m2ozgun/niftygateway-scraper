@@ -1,7 +1,7 @@
 # Asynchronous Nifty Gateway Scraper
 A Python based asynchronous Nifty Gateway scraper for receiving nifty stats.
 
-Runs under 40 seconds (1805 nifties as of Mar 6, 2021) and scrapes all the stats in Nifty Gateway. You can use it to build your own NFT Monitor. You can find the example output in nifties_prices.csv
+Runs under 40 seconds (1805 nifties as of Mar 6, 2021) and scrapes all the stats in Nifty Gateway. You can find the example output in nifties_prices.csv
 The script also scrapes the cheapest prices for NFTs in secondary markets.
 
 Scrapes the features:
@@ -25,3 +25,5 @@ sm_lowest_price
 - Install required libraries -> pip install -r requirements.txt
 - Add proxies file named "http_proxies.txt"
 - Run python main.py
+
+Disclaimer: This tool is created for educational purposes only and does not abide by the rules of robots.txt, use at your own risk.
